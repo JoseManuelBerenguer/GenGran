@@ -15,3 +15,5 @@ spread(0, min=0, max=1);           // pitch variation
 spray(0, min=0, max=1);            // dispersion of the initial position
 
 stereo_spread(1, min=0, max=1);    // stereo panning width
+
+The demo patch uses [[hirt.convolver]] to provide hight quality reverberation. [[hirt.convolver]] is part of the Hiss Tools package (https://research.hud.ac.uk/institutes-centres/cerenem/projects/thehisstools/) by Alex Harker, Pierre Alexandre Tremblay & Hyunkook Lee
